@@ -1,8 +1,12 @@
-import clone from 'clone';
-import equal from 'deep-equal';
-import extend from 'extend';
-import Delta, { AttributeMap } from 'quill-delta';
-import { LeafBlot } from 'parchment';
+import * as clone from 'clone';
+import * as equal from 'deep-equal';
+import * as extend from 'extend';
+import * as Delta from 'quill-delta';
+const AttributeMap = Delta.AttributeMap();
+
+import * as Parchment from 'parchment';
+const LeafBlot = Parchment.LeafBlot();
+
 import { Range } from './selection';
 import CursorBlot from '../blots/cursor';
 import Block, { BlockEmbed, bubbleFormats } from '../blots/block';

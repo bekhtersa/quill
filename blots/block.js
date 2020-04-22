@@ -1,12 +1,11 @@
-import extend from 'extend';
-import Delta from 'quill-delta';
-import {
-  AttributorStore,
-  BlockBlot,
-  EmbedBlot,
-  LeafBlot,
-  Scope,
-} from 'parchment';
+import * as extend from 'extend';
+import * as Delta from 'quill-delta';
+import * as Parchment from 'parchment';
+const AttributorStore = Parchment.AttributorStore();
+const BlockBlot = Parchment.BlockBlot();
+const EmbedBlot = Parchment.EmbedBlot();
+const LeafBlot = Parchment.LeafBlot();
+const Scope = Parchment.Scope();
 import Break from './break';
 import Inline from './inline';
 import TextBlot from './text';

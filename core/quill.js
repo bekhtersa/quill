@@ -1,6 +1,8 @@
-import Delta from 'quill-delta';
+import * as Delta from 'quill-delta';
 import * as Parchment from 'parchment';
-import extend from 'extend';
+import * as Extend from 'extend';
+const extend = Extend.extend();
+
 import Editor from './editor';
 import Emitter from './emitter';
 import Module from './module';

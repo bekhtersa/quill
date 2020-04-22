@@ -1,4 +1,4 @@
-import Delta from 'quill-delta';
+import * as Delta from 'quill-delta';
 import Quill, { expandConfig, overload } from '../../../core/quill';
 import Theme from '../../../core/theme';
 import Emitter from '../../../core/emitter';

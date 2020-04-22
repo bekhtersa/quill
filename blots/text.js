@@ -1,4 +1,5 @@
-import { TextBlot } from 'parchment';
+import * as Parchment from 'parchment';
+const TextBlot = Parchment.TextBlot();
 
 class Text extends TextBlot {}
 

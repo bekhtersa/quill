@@ -1,8 +1,8 @@
-import alignLeftIcon from '../assets/icons/align-left.svg';
-import alignCenterIcon from '../assets/icons/align-center.svg';
-import alignRightIcon from '../assets/icons/align-right.svg';
-import alignJustifyIcon from '../assets/icons/align-justify.svg';
-import backgroundIcon from '../assets/icons/background.svg';
+import alignLeftIcon from '../assets/icons/js/align-left';
+import alignCenterIcon from '../assets/icons/js/align-center';
+import alignRightIcon from '../assets/icons/js/align-right';
+import alignJustifyIcon from '../assets/icons/js/align-justify';
+/*import backgroundIcon from '../assets/icons/background.svg';
 import blockquoteIcon from '../assets/icons/blockquote.svg';
 import boldIcon from '../assets/icons/bold.svg';
 import cleanIcon from '../assets/icons/clean.svg';
@@ -26,7 +26,7 @@ import superscriptIcon from '../assets/icons/superscript.svg';
 import strikeIcon from '../assets/icons/strike.svg';
 import tableIcon from '../assets/icons/table.svg';
 import underlineIcon from '../assets/icons/underline.svg';
-import videoIcon from '../assets/icons/video.svg';
+import videoIcon from '../assets/icons/video.svg';*/
 
 export default {
   align: {
@@ -35,7 +35,7 @@ export default {
     right: alignRightIcon,
     justify: alignJustifyIcon,
   },
-  background: backgroundIcon,
+  /*background: backgroundIcon,
   blockquote: blockquoteIcon,
   bold: boldIcon,
   clean: cleanIcon,
@@ -70,5 +70,5 @@ export default {
   strike: strikeIcon,
   table: tableIcon,
   underline: underlineIcon,
-  video: videoIcon,
+  video: videoIcon,*/
 };

@@ -1,6 +1,14 @@
-import { LeafBlot, Scope } from 'parchment';
-import clone from 'clone';
-import equal from 'deep-equal';
+import * as Parchment from 'parchment';
+
+const LeafBlot = Parchment.LeafBlot();
+const Scope = Parchment.Scope();
+
+import * as Clone from 'clone';
+const clone = Clone.clone();
+
+import * as Equal from 'deep-equal';
+const equal = Equal.equal();
+
 import Emitter from './emitter';
 import logger from './logger';
 

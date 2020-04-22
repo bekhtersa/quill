@@ -1,4 +1,6 @@
-import { EmbedBlot } from 'parchment';
+import * as Parchment from 'parchment';
+const EmbedBlot = Parchment.EmbedBlot();
+
 import { sanitize } from './link';
 
 const ATTRIBUTES = ['alt', 'height', 'width'];

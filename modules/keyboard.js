@@ -1,8 +1,13 @@
-import clone from 'clone';
-import equal from 'deep-equal';
-import extend from 'extend';
-import Delta, { AttributeMap } from 'quill-delta';
-import { EmbedBlot, Scope, TextBlot } from 'parchment';
+import * as clone from 'clone';
+import * as equal from 'deep-equal';
+import * as extend from 'extend';
+import * as Delta from 'quill-delta';
+const AttributeMap = Delta.AttributeMap();
+
+import * as Parchment from 'parchment';
+const EmbedBlot = Parchment.EmbedBlot();
+const Scope = Parchment.Scope();
+const TextBlot = Parchment.TextBlot();
 import Quill from '../core/quill';
 import logger from '../core/logger';
 import Module from '../core/module';

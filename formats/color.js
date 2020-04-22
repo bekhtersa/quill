@@ -1,4 +1,7 @@
-import { ClassAttributor, Scope, StyleAttributor } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ClassAttributor = Parchment.ClassAttributor();
+const StyleAttributor = Parchment.StyleAttributor();
 
 class ColorAttributor extends StyleAttributor {
   value(domNode) {

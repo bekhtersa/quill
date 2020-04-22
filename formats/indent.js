@@ -1,4 +1,6 @@
-import { ClassAttributor, Scope } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ClassAttributor = Parchment.ClassAttributor();
 
 class IndentAttributor extends ClassAttributor {
   add(node, value) {

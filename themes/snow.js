@@ -1,4 +1,4 @@
-import extend from 'extend';
+import * as extend from 'extend';
 import Emitter from '../core/emitter';
 import BaseTheme, { BaseTooltip } from './base';
 import LinkBlot from '../formats/link';

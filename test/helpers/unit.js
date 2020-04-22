@@ -1,4 +1,4 @@
-import equal from 'deep-equal';
+import * as equal from 'deep-equal';
 import Editor from '../../core/editor';
 import Emitter from '../../core/emitter';
 import Selection from '../../core/selection';

@@ -1,5 +1,8 @@
-import Delta from 'quill-delta';
-import { ClassAttributor, Scope } from 'parchment';
+import * as Delta from 'quill-delta';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ClassAttributor = Parchment.ClassAttributor();
+
 import Inline from '../blots/inline';
 import Quill from '../core/quill';
 import Module from '../core/module';

@@ -1,4 +1,5 @@
-import { ContainerBlot } from 'parchment';
+import * as Parchment from 'parchment';
+const ContainerBlot = Parchment.ContainerBlot();
 
 class Container extends ContainerBlot {}
 

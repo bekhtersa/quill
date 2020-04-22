@@ -1,4 +1,4 @@
-import extend from 'extend';
+import * as extend from 'extend';
 import Emitter from '../core/emitter';
 import Theme from '../core/theme';
 import ColorPicker from '../ui/color-picker';

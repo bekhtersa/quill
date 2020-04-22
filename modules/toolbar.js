@@ -1,5 +1,8 @@
-import Delta from 'quill-delta';
-import { EmbedBlot, Scope } from 'parchment';
+import * as Delta from 'quill-delta';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const EmbedBlot = Parchment.EmbedBlot();
+
 import Quill from '../core/quill';
 import logger from '../core/logger';
 import Module from '../core/module';

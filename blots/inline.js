@@ -1,4 +1,8 @@
-import { EmbedBlot, InlineBlot, Scope } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const EmbedBlot = Parchment.EmbedBlot();
+const InlineBlot = Parchment.InlineBlot();
+
 import Break from './break';
 import Text from './text';
 

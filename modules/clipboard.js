@@ -1,13 +1,13 @@
-import extend from 'extend';
-import Delta from 'quill-delta';
-import {
-  Attributor,
-  ClassAttributor,
-  EmbedBlot,
-  Scope,
-  StyleAttributor,
-  BlockBlot,
-} from 'parchment';
+import * as extend from 'extend';
+import * as Delta from 'quill-delta';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ClassAttributor = Parchment.ClassAttributor();
+const StyleAttributor = Parchment.StyleAttributor();
+const Attributor = Parchment.Attributor();
+const EmbedBlot = Parchment.EmbedBlot();
+const BlockBlot = Parchment.BlockBlot();
+
 import { BlockEmbed } from '../blots/block';
 import Quill from '../core/quill';
 import logger from '../core/logger';

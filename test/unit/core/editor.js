@@ -1,4 +1,4 @@
-import Delta from 'quill-delta';
+import * as Delta from 'quill-delta';
 import Editor from '../../../core/editor';
 import Selection, { Range } from '../../../core/selection';
 

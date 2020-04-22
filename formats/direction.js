@@ -1,4 +1,8 @@
-import { Attributor, ClassAttributor, Scope, StyleAttributor } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ClassAttributor = Parchment.ClassAttributor();
+const StyleAttributor = Parchment.StyleAttributor();
+const Attributor = Parchment.Attributor();
 
 const config = {
   scope: Scope.BLOCK,

@@ -1,4 +1,8 @@
-import { Scope, ScrollBlot, ContainerBlot } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const ScrollBlot = Parchment.ScrollBlot();
+const ContainerBlot = Parchment.ContainerBlot();
+
 import Emitter from '../core/emitter';
 import Block, { BlockEmbed } from './block';
 import Break from './break';

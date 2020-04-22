@@ -1,4 +1,6 @@
-import { Scope } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+
 import Quill from '../core/quill';
 import Module from '../core/module';
 

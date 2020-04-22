@@ -1,4 +1,7 @@
-import { EmbedBlot, Scope } from 'parchment';
+import * as Parchment from 'parchment';
+const Scope = Parchment.Scope();
+const EmbedBlot = Parchment.EmbedBlot();
+
 import TextBlot from './text';
 
 class Cursor extends EmbedBlot {
